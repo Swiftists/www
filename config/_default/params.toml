@@ -21,7 +21,7 @@ hideSingleContentsWhenJSDisabled = false
 homeHeaderType = "text" # text, img, slide
 
 # menu
-showMobileMenuTerms = ["tags", "categories", "series"]
+showMobileMenuTerms = ["series", "tags", "categories"]
 
 # body
 enableBreadcrumb = true
@@ -50,7 +50,7 @@ organization = "Swiftists"
 link = "https://www.joemattiello.dev/"
 
 # sidebar
-enableBio = true
+enableBio = false
 enableBioImage = true
 enableSidebar = true
 enableSidebarTags = true
