@@ -143,8 +143,8 @@ commento = false
 [socialOptions]
   email = "mailto:contact@swiftists.com"
   phone = ""
-  facebook = "http://swiftists.org/"
-  twitter = "http://swiftists.com/"
+  facebook = "https://facebook.com/swiftists"
+  twitter = "https://twitter.com/swiftists"
   github = "https://github.com/swiftists/swiftists.github.io"
   stack-overflow = ""
   instagram = ""
