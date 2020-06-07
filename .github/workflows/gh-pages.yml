@@ -51,11 +51,10 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_branch: master  # default: gh-pages
           publish_dir: ./public
-          cname: swiftists.com
-          # publish_dir: ./public
-          force_orphan: true # This allows you to make your publish branch with only the latest commit.
+          cname: www.swiftists.com
+          force_orphan: false # This allows you to make your publish branch with only the latest commit.
           # user_name: 'github-actions[bot]'
           # user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: ${{ github.event.head_commit.message }}
-          tag_name: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
-          tag_message: 'Deployment ${{ steps.prepare_tag.outputs.tag_name }}'
+          # tag_name: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
+          # tag_message: 'Deployment ${{ steps.prepare_tag.outputs.tag_name }}'
